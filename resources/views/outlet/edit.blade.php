@@ -1,6 +1,6 @@
 <x-layout title="{{$title}}">
 
-    <div class="d-flex justify-content-center" style="min-height: 100vh; padding-top: 20px; padding-bottom: 50px;">
+    <div class="d-flex justify-content-center" style="padding-top: 20px; padding-bottom: 50px;">
         <div class="card card-primary shadow-lg" style="max-width: 700px; width: 100%; border-radius: 10px;">
             <div class="card-header bg-primary text-white text-center" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
         <h3 class="card-title">{{$title}}</h3>
