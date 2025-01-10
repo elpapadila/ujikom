@@ -13,8 +13,7 @@
             <h6 class="m-0 font-weight-bold text-primary">Data Transaksi</h6>
         </div>
         <div class="card-body">
-            <div class="table-responsive">
-
+            <div class="table-responsive" style="overflow-x: auto;">
                 <table class="table table-bordered" id="myTable" width="100%" cellspacing="0">
                     <thead>
                         <tr>

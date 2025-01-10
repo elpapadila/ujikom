@@ -1,5 +1,7 @@
 @charset "UTF-8";
 table.dataTable {
+  width: auto !important; /* Tambahkan ini */
+  min-width: 1500px !important;
   clear: both;
   margin-top: 6px !important;
   margin-bottom: 6px !important;
@@ -197,6 +199,10 @@ table.table-bordered.dataTable tbody td {
 
 div.dataTables_scrollHead table.table-bordered {
   border-bottom-width: 0;
+}
+
+.table-responsive {
+    overflow-x: auto !important;
 }
 
 div.table-responsive > div.dataTables_wrapper > div.row {
